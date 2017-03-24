@@ -5,7 +5,8 @@ using Castle.Core.Logging;
 
 namespace AbpEfConsoleApp
 {
-    //Entry class of the test. It uses constructor-injection to get a repository and property-injection to get a Logger.
+    // Entry class of the test. It uses constructor-injection to get a repository and property-injection to get a Logger.
+    // 测试实体类。它使用构造函数注入一个仓储，使用属性注入一个 Logger
     public class Tester : ITransientDependency
     {
         public ILogger Logger { get; set; }

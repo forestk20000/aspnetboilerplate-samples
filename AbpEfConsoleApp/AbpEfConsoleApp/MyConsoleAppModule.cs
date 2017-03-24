@@ -10,6 +10,7 @@ namespace AbpEfConsoleApp
     {
         public override void Initialize()
         {
+            // 按约定注册程序集
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
         }
     }

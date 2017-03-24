@@ -13,6 +13,7 @@ namespace AbpEfConsoleApp.Migrations
 
         protected override void Seed(MyConsoleAppDbContext context)
         {
+            // 
             context.Users.AddOrUpdate(
                 u => u.Name,
                 new User(new Guid("c2ee8f4e-8592-44d5-84c2-ac5fca1752fd"), "Halil"),
